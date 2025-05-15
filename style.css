@@ -1,0 +1,62 @@
+body{
+    background-color:bisque
+   
+}
+.container{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.image{
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+}
+h1{
+   font-family: 'Lobster', cursive;
+   margin: 10px;
+   font-size: 2.5rem;
+   color: blueviolet;
+   align-items: center;
+}
+.btn{
+    margin-top: 5px;
+    background-color:cyan;
+    color: black;
+    border-radius: 50px;
+   
+}
+.foot{
+    font-family: 'indie Flower', cursive;
+    color: rgba(0, 0, 255, 0.847);
+    margin: 0px;
+    text-shadow: 1px 1px pink;
+}
+
+h4{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1rem;
+    color: green;
+    margin-top: 10px;
+}
+
+@media(max-width: 360px){
+    .container{
+        display: block; 
+        height: 120;      
+}
+    .image{
+    margin: 0px;
+    width: 150px;
+    height: 120px;
+}
+   h1{
+     margin: 0px;
+   font-size: 1.5rem;
+   color: blueviolet;
+   align-items: center;
+   }
+}
